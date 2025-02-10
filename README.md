@@ -10,7 +10,7 @@ Colección de implementaciones didácticas de algoritmos criptográficos histór
 - Cifrado Atbash
 - Cifrado Hill (matricial)
   
-Desarrollado como material complementario para la asignatura de Sistemas Operativos [[7]].
+Desarrollado como material complementario para la asignatura de Sistemas Operativos.
 
 ## Estructura de Directorios
 
@@ -22,10 +22,11 @@ Desarrollado como material complementario para la asignatura de Sistemas Operati
 │   ├── 📜 1. cesar.py                 # César simple (desplazamiento fijo)
 │   ├── 📜 2.cesar_multiple.py         # Múltiples desplazamientos predefinidos
 │   ├── 📜 3.cesar_multiple_aleatorio.py # Desplazamientos dinámicos
-│   └── 📜 4. cesar_fb.py              # Modo feedback
+│   └── 📜 4. cesar_fb.py              # Fuerza Bruta
 ├── 📂 3. Hill/
-│   └── 📜 hill.py           # Implementación con GUI Tkinter
+│   └── 📜 hill.py           # Matricial
 ├── 📜 crypto.pptx        # Presentación teórica principal
+├── 📜 crypto.pdf         #Presentación teórica principal formato PDF
 └── 📜 LICENSE            # Licencia MIT (uso académico)
 ```
 ## Programas Destacados
@@ -38,10 +39,10 @@ MATRIZ_CIFRADO = [[11, 8], [3, 7]]
 MATRIZ_DESCIFRADO = [[7, 18], [23, 11]]  
 ```
 ## Características:
-✅ Interfaz gráfica intuitiva (Tkinter) [[8]]
-✅ Visualización paso a paso del proceso
-✅ Manejo automático de padding ('X')
-✅ Validación de entrada de texto
+- Interfaz gráfica intuitiva (Tkinter) 
+- Visualización paso a paso del proceso
+- Manejo automático de padding ('X')
+- Validación de entrada de texto
 
 ## César Avanzado
 ```bash
@@ -49,10 +50,10 @@ MATRIZ_DESCIFRADO = [[7, 18], [23, 11]]
 # Ejecución con parámetros variables
 Variantes implementadas:
 
-    Desplazamiento simple (César clásico) [[9]]
+    Desplazamiento simple (César clásico) 
     Desplazamiento múltiple predefinido
     Desplazamiento aleatorio por carácter
-    Modo feedback operativo [[9]]
+    Fuerza Bruta
 ```
 ## 🖥️ Instrucciones de Uso
 
@@ -71,21 +72,7 @@ cd 3.Hill && python hill.py
 
 # Ejemplo: César aleatorio
 cd 2.cesar && python 3.cesar_multiple_aleatorio.py "Texto" 5 7 13
-
-    Consultar parámetros de ejecución:
-
-python
-
-"""
-Formato general:
-  python [script.py] [texto] [parametros...]
-  
-Ejemplo Hill:
-  Campo 'Texto a cifrar': INGENIERIA
-  Click en 'Cifrar'
-"""
 ```
-
 ## 📄 Licencia
 
 
@@ -104,3 +91,6 @@ Material desarrollado conforme al syllabus 2025 de la asignatura Sistemas Operat
 - CLAUDIO XAVIER BORJA SALTOS
 - MERCY JOHANNA MARIDUEÑA ALAVA
 - RONALD ALEXANDER SOLÓRZANO ZAPATA
+
+**Nota**
+Se utilizo DeepSeek R1 como soporte en el desarrollo y ajuste de codigos.
