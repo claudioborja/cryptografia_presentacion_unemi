@@ -93,10 +93,14 @@ MIT License - Restricción académica:
 El uso de este material queda limitado a fines educativos y de investigación dentro de la comunidad estudiantil UNEMI.
 
 ## 🎓 Contexto Académico
-Material desarrollado conforme al syllabus 2025 de la carrera de Tecnologías de la Información, fundamentado en:
+Material desarrollado conforme al syllabus 2025 de la asignatura Sistemas Operativos - Carrera de Tecnologías de la Información, fundamentado en:
 - NIST Special Publication 800-175B (Guidelines for Cryptographic Algorithms) 
 - ISO/IEC 18033-1:2015 (Encryption Algorithms) 
 - Estándares de seguridad informática UNEMI-2024 
 
 **Creado por Grupo B - ©2025 UNEMI**
 Última actualización: 10 de febrero de 2025
+- ALEJANDRO ENRIQUE AÑAPA DE LA CRUZ
+- CLAUDIO XAVIER BORJA SALTOS
+- MERCY JOHANNA MARIDUEÑA ALAVA
+- RONALD ALEXANDER SOLÓRZANO ZAPATA
